@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cie Ultah :3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/DALL·E 2025-02-12 22.28.13 - A simple and minimalist logo featuring a cute red tomato with a small green leaf on top, surrounded by pink love emoticons (hearts with eyes or smilin.webp">
+</head>
+<body>
+    <div class="container">
+        <h1>Camad ulang tahuunnn cayaanggggg!!!</h1>
+        <div id="message-box">
+            <div id="messages">
+                <p class="message active">Cieee ultaahhhh</p>
+                <p class="message">Camad ultaahh cayaanggggg</p>
+                <p class="message">Mas Devin bersyukuurrr bisa kenal dan jadi bagian dari hidup adeekkk :3</p>
+                <p class="message">Mas Devin seneenggg jalani hubungan bareng adeekkkk</p>
+                <p class="message">Mas Devin selalu di sinii untuk adeekkk💕</p>
+                <p class="message">Adek jangan pergii dari mass yaawww..</p>
+                <p class="message">Mas Devin sayangg adekk banyak-banyaakkk, banyaakkk sekaliiiii💖</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <img src="images/1738398714597-transformed.png" alt="Dekorasi 1" class="gallery-img rotated-left">
+            <img src="images/1738398780222-transformed.png" alt="Dekorasi 2" class="gallery-img rotated-right">
+        </div>
+    </div>
+
+    
+
+    <script src="js/script.js"></script>
+    
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="images/20250121_150313_832.jpg" class="gallery-img">
+        </div>
+        <div class="slide fade">
+            <img src="images/WhatsApp Image 2025-01-21 at 21.26.58_289f7ab5.jpg" class="gallery-img">
+        </div>
+        <div class="slide fade">
+            <img src="images/IMG-20250121-WA0252.jpg" class="gallery-img">
+        </div>
+        <div class="slide fade">
+            <img src="images/IMG-20250121-WA0287.jpg" class="gallery-img">
+        </div>
+        <div class="slide fade">
+            <img src="images/IMG-20250121-WA0312.jpg" class="gallery-img">
+        </div>
+        <div class="slide fade">
+            <img src="images/IMG-20250124-WA0019.jpg" class="gallery-img">
+        </div>
+        <div class="slide fade">
+            <img src="images/WhatsApp Image 2025-02-08 at 20.12.18_f4b04376.jpg" class="gallery-img">
+        </div>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+    
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 3000); // Ganti gambar setiap 3 detik
+        }
+    </script>  
+    
+    <div class="button-container">
+        <a href="gallery.html" class="button">Gallery Kami</a>
+        <a href="kartu-ucapan.html" class="button">Kartu Ucapan</a>
+    </div>
+    
+</body>
+</html>
